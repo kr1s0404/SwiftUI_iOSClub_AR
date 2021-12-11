@@ -14,6 +14,8 @@ enum ModelCategory: CaseIterable
     case Logo
     case iPhone
     case iPad
+    case iMac
+    case mac
     case Watch
     case Accessories
     
@@ -29,6 +31,10 @@ enum ModelCategory: CaseIterable
                 return "iPhone"
             case .iPad:
                 return "iPad"
+            case .iMac:
+                return "iMac"
+            case .mac:
+                return "mac"
             case .Watch:
                 return "手錶"
             case .Accessories:
@@ -91,11 +97,21 @@ struct Models
         // iPhone
         let iPhone_13_Pro_Max = Model(name: "iPhone_13_Pro_Max", category: .iPhone, scaleCompensation: 0.32/100)
         let iPhone_13 = Model(name: "iPhone_13", category: .iPhone, scaleCompensation: 0.32/100)
-        self.all += [iPhone_13_Pro_Max, iPhone_13]
+        let iPhone_12_Pro = Model(name: "iPhone_12_Pro", category: .iPhone, scaleCompensation: 0.32/100)
+        self.all += [iPhone_13_Pro_Max, iPhone_13, iPhone_12_Pro]
         
         // iPad
         let iPad_Mini_6 = Model(name: "iPad_Mini_6", category: .iPad, scaleCompensation: 0.32/100)
-        self.all += [iPad_Mini_6]
+        let iPad_Pro = Model(name: "iPad_Pro", category: .iPad, scaleCompensation: 0.32/100)
+        self.all += [iPad_Mini_6, iPad_Pro]
+        
+        // iMac
+        let iMac = Model(name: "iMac", category: .iMac, scaleCompensation: 0.32/100)
+        self.all += [iMac]
+        
+        // mac
+        let Mac_Mini_M1 = Model(name: "Mac_Mini_M1", category: .mac, scaleCompensation: 0.32/100)
+        self.all += [Mac_Mini_M1]
         
         // Apple Watch
         let Apple_Watch = Model(name: "Apple_Watch", category: .Watch, scaleCompensation: 0.32/100)

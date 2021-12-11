@@ -24,6 +24,10 @@
 		2FD660C927651C9F00312AB2 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660C827651C9F00312AB2 /* ControlView.swift */; };
 		2FD660CB2765252F00312AB2 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660CA2765252F00312AB2 /* BrowseView.swift */; };
 		2FD660CD2765285C00312AB2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660CC2765285C00312AB2 /* Model.swift */; };
+		2FD660D227653DA100312AB2 /* iPhone_12_Pro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660CE27653DA000312AB2 /* iPhone_12_Pro.usdz */; };
+		2FD660D327653DA100312AB2 /* iPad_Pro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660CF27653DA000312AB2 /* iPad_Pro.usdz */; };
+		2FD660D427653DA100312AB2 /* iMac.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660D027653DA000312AB2 /* iMac.usdz */; };
+		2FD660D527653DA100312AB2 /* Mac_Mini_M1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660D127653DA100312AB2 /* Mac_Mini_M1.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		2FD660C827651C9F00312AB2 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		2FD660CA2765252F00312AB2 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		2FD660CC2765285C00312AB2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2FD660CE27653DA000312AB2 /* iPhone_12_Pro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = iPhone_12_Pro.usdz; sourceTree = "<group>"; };
+		2FD660CF27653DA000312AB2 /* iPad_Pro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = iPad_Pro.usdz; sourceTree = "<group>"; };
+		2FD660D027653DA000312AB2 /* iMac.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = iMac.usdz; sourceTree = "<group>"; };
+		2FD660D127653DA100312AB2 /* Mac_Mini_M1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mac_Mini_M1.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,10 @@
 		2FD660AF2764F8CD00312AB2 /* 3D Models */ = {
 			isa = PBXGroup;
 			children = (
+				2FD660D027653DA000312AB2 /* iMac.usdz */,
+				2FD660CF27653DA000312AB2 /* iPad_Pro.usdz */,
+				2FD660CE27653DA000312AB2 /* iPhone_12_Pro.usdz */,
+				2FD660D127653DA100312AB2 /* Mac_Mini_M1.usdz */,
 				2FD660BC27651B3900312AB2 /* AirTag.usdz */,
 				2FD660BE27651B3900312AB2 /* Apple_Logo.usdz */,
 				2FD660C027651B3900312AB2 /* Apple_Watch.usdz */,
@@ -270,10 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD660C527651B3900312AB2 /* iPhone_13.usdz in Resources */,
+				2FD660D327653DA100312AB2 /* iPad_Pro.usdz in Resources */,
 				2FD6608D2764F34D00312AB2 /* Preview Assets.xcassets in Resources */,
+				2FD660D427653DA100312AB2 /* iMac.usdz in Resources */,
+				2FD660D527653DA100312AB2 /* Mac_Mini_M1.usdz in Resources */,
 				2FD660C427651B3900312AB2 /* Apple_Logo.usdz in Resources */,
 				2FD660B12764F8FA00312AB2 /* iOSClub.usdz in Resources */,
 				2FD660C627651B3900312AB2 /* Apple_Watch.usdz in Resources */,
+				2FD660D227653DA100312AB2 /* iPhone_12_Pro.usdz in Resources */,
 				2FD660C327651B3900312AB2 /* iPhone_13_Pro_Max.usdz in Resources */,
 				2FD6608A2764F34D00312AB2 /* Assets.xcassets in Resources */,
 				2FD660C727651B3900312AB2 /* iPad_Mini_6.usdz in Resources */,
