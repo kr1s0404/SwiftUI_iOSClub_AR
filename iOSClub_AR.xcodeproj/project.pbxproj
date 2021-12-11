@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD660842764F34B00312AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660832764F34B00312AB2 /* AppDelegate.swift */; };
+		2FD660862764F34B00312AB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660852764F34B00312AB2 /* ContentView.swift */; };
+		2FD6608A2764F34D00312AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660892764F34D00312AB2 /* Assets.xcassets */; };
+		2FD6608D2764F34D00312AB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD6608C2764F34D00312AB2 /* Preview Assets.xcassets */; };
+		2FD660972764F34E00312AB2 /* iOSClub_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660962764F34E00312AB2 /* iOSClub_ARTests.swift */; };
+		2FD660A12764F34E00312AB2 /* iOSClub_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660A02764F34E00312AB2 /* iOSClub_ARUITests.swift */; };
+		2FD660A32764F34E00312AB2 /* iOSClub_ARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660A22764F34E00312AB2 /* iOSClub_ARUITestsLaunchTests.swift */; };
+		2FD660B12764F8FA00312AB2 /* iOSClub.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660B02764F8FA00312AB2 /* iOSClub.usdz */; };
+		2FD660C227651B3900312AB2 /* AirTag.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660BC27651B3900312AB2 /* AirTag.usdz */; };
+		2FD660C327651B3900312AB2 /* iPhone_13_Pro_Max.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660BD27651B3900312AB2 /* iPhone_13_Pro_Max.usdz */; };
+		2FD660C427651B3900312AB2 /* Apple_Logo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660BE27651B3900312AB2 /* Apple_Logo.usdz */; };
+		2FD660C527651B3900312AB2 /* iPhone_13.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660BF27651B3900312AB2 /* iPhone_13.usdz */; };
+		2FD660C627651B3900312AB2 /* Apple_Watch.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660C027651B3900312AB2 /* Apple_Watch.usdz */; };
+		2FD660C727651B3900312AB2 /* iPad_Mini_6.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD660C127651B3900312AB2 /* iPad_Mini_6.usdz */; };
+		2FD660C927651C9F00312AB2 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660C827651C9F00312AB2 /* ControlView.swift */; };
+		2FD660CB2765252F00312AB2 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660CA2765252F00312AB2 /* BrowseView.swift */; };
+		2FD660CD2765285C00312AB2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD660CC2765285C00312AB2 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FD660932764F34E00312AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD660782764F34B00312AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD6607F2764F34B00312AB2;
+			remoteInfo = iOSClub_AR;
+		};
+		2FD6609D2764F34E00312AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD660782764F34B00312AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD6607F2764F34B00312AB2;
+			remoteInfo = iOSClub_AR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FD660802764F34B00312AB2 /* iOSClub_AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSClub_AR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD660832764F34B00312AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FD660852764F34B00312AB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FD660892764F34D00312AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FD6608C2764F34D00312AB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FD660922764F34E00312AB2 /* iOSClub_ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSClub_ARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD660962764F34E00312AB2 /* iOSClub_ARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSClub_ARTests.swift; sourceTree = "<group>"; };
+		2FD6609C2764F34E00312AB2 /* iOSClub_ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSClub_ARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD660A02764F34E00312AB2 /* iOSClub_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSClub_ARUITests.swift; sourceTree = "<group>"; };
+		2FD660A22764F34E00312AB2 /* iOSClub_ARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSClub_ARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FD660B02764F8FA00312AB2 /* iOSClub.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = iOSClub.usdz; sourceTree = "<group>"; };
+		2FD660BC27651B3900312AB2 /* AirTag.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = AirTag.usdz; sourceTree = "<group>"; };
+		2FD660BD27651B3900312AB2 /* iPhone_13_Pro_Max.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = iPhone_13_Pro_Max.usdz; sourceTree = "<group>"; };
+		2FD660BE27651B3900312AB2 /* Apple_Logo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Apple_Logo.usdz; sourceTree = "<group>"; };
+		2FD660BF27651B3900312AB2 /* iPhone_13.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = iPhone_13.usdz; sourceTree = "<group>"; };
+		2FD660C027651B3900312AB2 /* Apple_Watch.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Apple_Watch.usdz; sourceTree = "<group>"; };
+		2FD660C127651B3900312AB2 /* iPad_Mini_6.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = iPad_Mini_6.usdz; sourceTree = "<group>"; };
+		2FD660C827651C9F00312AB2 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		2FD660CA2765252F00312AB2 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		2FD660CC2765285C00312AB2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD6607D2764F34B00312AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD6608F2764F34E00312AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD660992764F34E00312AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD660772764F34B00312AB2 = {
+			isa = PBXGroup;
+			children = (
+				2FD660822764F34B00312AB2 /* iOSClub_AR */,
+				2FD660952764F34E00312AB2 /* iOSClub_ARTests */,
+				2FD6609F2764F34E00312AB2 /* iOSClub_ARUITests */,
+				2FD660812764F34B00312AB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD660812764F34B00312AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD660802764F34B00312AB2 /* iOSClub_AR.app */,
+				2FD660922764F34E00312AB2 /* iOSClub_ARTests.xctest */,
+				2FD6609C2764F34E00312AB2 /* iOSClub_ARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD660822764F34B00312AB2 /* iOSClub_AR */ = {
+			isa = PBXGroup;
+			children = (
+				2FD660AF2764F8CD00312AB2 /* 3D Models */,
+				2FD660852764F34B00312AB2 /* ContentView.swift */,
+				2FD660C827651C9F00312AB2 /* ControlView.swift */,
+				2FD660CA2765252F00312AB2 /* BrowseView.swift */,
+				2FD660CC2765285C00312AB2 /* Model.swift */,
+				2FD660832764F34B00312AB2 /* AppDelegate.swift */,
+				2FD660892764F34D00312AB2 /* Assets.xcassets */,
+				2FD6608B2764F34D00312AB2 /* Preview Content */,
+			);
+			path = iOSClub_AR;
+			sourceTree = "<group>";
+		};
+		2FD6608B2764F34D00312AB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FD6608C2764F34D00312AB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FD660952764F34E00312AB2 /* iOSClub_ARTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD660962764F34E00312AB2 /* iOSClub_ARTests.swift */,
+			);
+			path = iOSClub_ARTests;
+			sourceTree = "<group>";
+		};
+		2FD6609F2764F34E00312AB2 /* iOSClub_ARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD660A02764F34E00312AB2 /* iOSClub_ARUITests.swift */,
+				2FD660A22764F34E00312AB2 /* iOSClub_ARUITestsLaunchTests.swift */,
+			);
+			path = iOSClub_ARUITests;
+			sourceTree = "<group>";
+		};
+		2FD660AF2764F8CD00312AB2 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FD660BC27651B3900312AB2 /* AirTag.usdz */,
+				2FD660BE27651B3900312AB2 /* Apple_Logo.usdz */,
+				2FD660C027651B3900312AB2 /* Apple_Watch.usdz */,
+				2FD660C127651B3900312AB2 /* iPad_Mini_6.usdz */,
+				2FD660BD27651B3900312AB2 /* iPhone_13_Pro_Max.usdz */,
+				2FD660BF27651B3900312AB2 /* iPhone_13.usdz */,
+				2FD660B02764F8FA00312AB2 /* iOSClub.usdz */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD6607F2764F34B00312AB2 /* iOSClub_AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD660A62764F34E00312AB2 /* Build configuration list for PBXNativeTarget "iOSClub_AR" */;
+			buildPhases = (
+				2FD6607C2764F34B00312AB2 /* Sources */,
+				2FD6607D2764F34B00312AB2 /* Frameworks */,
+				2FD6607E2764F34B00312AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSClub_AR;
+			productName = iOSClub_AR;
+			productReference = 2FD660802764F34B00312AB2 /* iOSClub_AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FD660912764F34E00312AB2 /* iOSClub_ARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD660A92764F34E00312AB2 /* Build configuration list for PBXNativeTarget "iOSClub_ARTests" */;
+			buildPhases = (
+				2FD6608E2764F34E00312AB2 /* Sources */,
+				2FD6608F2764F34E00312AB2 /* Frameworks */,
+				2FD660902764F34E00312AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD660942764F34E00312AB2 /* PBXTargetDependency */,
+			);
+			name = iOSClub_ARTests;
+			productName = iOSClub_ARTests;
+			productReference = 2FD660922764F34E00312AB2 /* iOSClub_ARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FD6609B2764F34E00312AB2 /* iOSClub_ARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD660AC2764F34E00312AB2 /* Build configuration list for PBXNativeTarget "iOSClub_ARUITests" */;
+			buildPhases = (
+				2FD660982764F34E00312AB2 /* Sources */,
+				2FD660992764F34E00312AB2 /* Frameworks */,
+				2FD6609A2764F34E00312AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD6609E2764F34E00312AB2 /* PBXTargetDependency */,
+			);
+			name = iOSClub_ARUITests;
+			productName = iOSClub_ARUITests;
+			productReference = 2FD6609C2764F34E00312AB2 /* iOSClub_ARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD660782764F34B00312AB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2FD6607F2764F34B00312AB2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					2FD660912764F34E00312AB2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2FD6607F2764F34B00312AB2;
+					};
+					2FD6609B2764F34E00312AB2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2FD6607F2764F34B00312AB2;
+					};
+				};
+			};
+			buildConfigurationList = 2FD6607B2764F34B00312AB2 /* Build configuration list for PBXProject "iOSClub_AR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD660772764F34B00312AB2;
+			productRefGroup = 2FD660812764F34B00312AB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD6607F2764F34B00312AB2 /* iOSClub_AR */,
+				2FD660912764F34E00312AB2 /* iOSClub_ARTests */,
+				2FD6609B2764F34E00312AB2 /* iOSClub_ARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD6607E2764F34B00312AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD660C527651B3900312AB2 /* iPhone_13.usdz in Resources */,
+				2FD6608D2764F34D00312AB2 /* Preview Assets.xcassets in Resources */,
+				2FD660C427651B3900312AB2 /* Apple_Logo.usdz in Resources */,
+				2FD660B12764F8FA00312AB2 /* iOSClub.usdz in Resources */,
+				2FD660C627651B3900312AB2 /* Apple_Watch.usdz in Resources */,
+				2FD660C327651B3900312AB2 /* iPhone_13_Pro_Max.usdz in Resources */,
+				2FD6608A2764F34D00312AB2 /* Assets.xcassets in Resources */,
+				2FD660C727651B3900312AB2 /* iPad_Mini_6.usdz in Resources */,
+				2FD660C227651B3900312AB2 /* AirTag.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD660902764F34E00312AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD6609A2764F34E00312AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD6607C2764F34B00312AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD660CD2765285C00312AB2 /* Model.swift in Sources */,
+				2FD660CB2765252F00312AB2 /* BrowseView.swift in Sources */,
+				2FD660862764F34B00312AB2 /* ContentView.swift in Sources */,
+				2FD660C927651C9F00312AB2 /* ControlView.swift in Sources */,
+				2FD660842764F34B00312AB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD6608E2764F34E00312AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD660972764F34E00312AB2 /* iOSClub_ARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD660982764F34E00312AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD660A12764F34E00312AB2 /* iOSClub_ARUITests.swift in Sources */,
+				2FD660A32764F34E00312AB2 /* iOSClub_ARUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FD660942764F34E00312AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD6607F2764F34B00312AB2 /* iOSClub_AR */;
+			targetProxy = 2FD660932764F34E00312AB2 /* PBXContainerItemProxy */;
+		};
+		2FD6609E2764F34E00312AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD6607F2764F34B00312AB2 /* iOSClub_AR */;
+			targetProxy = 2FD6609D2764F34E00312AB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FD660A42764F34E00312AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FD660A52764F34E00312AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD660A72764F34E00312AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSClub_AR/Preview Content\"";
+				DEVELOPMENT_TEAM = 46U3CJ7CE5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kr1s.iOSClub-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD660A82764F34E00312AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSClub_AR/Preview Content\"";
+				DEVELOPMENT_TEAM = 46U3CJ7CE5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kr1s.iOSClub-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FD660AA2764F34E00312AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46U3CJ7CE5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kr1s.iOSClub-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSClub_AR.app/iOSClub_AR";
+			};
+			name = Debug;
+		};
+		2FD660AB2764F34E00312AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46U3CJ7CE5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kr1s.iOSClub-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSClub_AR.app/iOSClub_AR";
+			};
+			name = Release;
+		};
+		2FD660AD2764F34E00312AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46U3CJ7CE5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kr1s.iOSClub-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSClub_AR;
+			};
+			name = Debug;
+		};
+		2FD660AE2764F34E00312AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46U3CJ7CE5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kr1s.iOSClub-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSClub_AR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD6607B2764F34B00312AB2 /* Build configuration list for PBXProject "iOSClub_AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD660A42764F34E00312AB2 /* Debug */,
+				2FD660A52764F34E00312AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD660A62764F34E00312AB2 /* Build configuration list for PBXNativeTarget "iOSClub_AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD660A72764F34E00312AB2 /* Debug */,
+				2FD660A82764F34E00312AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD660A92764F34E00312AB2 /* Build configuration list for PBXNativeTarget "iOSClub_ARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD660AA2764F34E00312AB2 /* Debug */,
+				2FD660AB2764F34E00312AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD660AC2764F34E00312AB2 /* Build configuration list for PBXNativeTarget "iOSClub_ARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD660AD2764F34E00312AB2 /* Debug */,
+				2FD660AE2764F34E00312AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD660782764F34B00312AB2 /* Project object */;
+}
