@@ -64,6 +64,8 @@ struct HorizontalGrid: View
     
     @Binding var showBrowse: Bool
     
+    @EnvironmentObject var placementSettings: PlacementSettings
+    
     var title: String
     var items: [Model]
     
@@ -89,6 +91,8 @@ struct HorizontalGrid: View
                         ItemButton(model: model)
                         {
                             model.asyncLoadModelEntity()
+                            self.placementSettings.selectedModel = model
+                            print("選中\(model.name)作為放置目標")
                             showBrowse = false
                         }
                     }

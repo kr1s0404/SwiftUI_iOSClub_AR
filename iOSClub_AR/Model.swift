@@ -88,37 +88,37 @@ struct Models
     
     init()
     {
-        // 0.32/100 = 符合實際世界大小
+        // scaleCompensation = 實際世界大小
         // Logo
-        let iOSClub = Model(name: "iOSClub", category: .Logo, scaleCompensation: 0.32/100)
-        let Apple_Logo = Model(name: "Apple_Logo", category: .Logo, scaleCompensation: 0.32/100)
+        let iOSClub = Model(name: "iOSClub", category: .Logo, scaleCompensation: 150/100)
+        let Apple_Logo = Model(name: "Apple_Logo", category: .Logo, scaleCompensation: 10/100)
         self.all += [iOSClub, Apple_Logo]
         
         // iPhone
-        let iPhone_13_Pro_Max = Model(name: "iPhone_13_Pro_Max", category: .iPhone, scaleCompensation: 0.32/100)
-        let iPhone_13 = Model(name: "iPhone_13", category: .iPhone, scaleCompensation: 0.32/100)
-        let iPhone_12_Pro = Model(name: "iPhone_12_Pro", category: .iPhone, scaleCompensation: 0.32/100)
+        let iPhone_13_Pro_Max = Model(name: "iPhone_13_Pro_Max", category: .iPhone, scaleCompensation: 10/100)
+        let iPhone_13 = Model(name: "iPhone_13", category: .iPhone, scaleCompensation: 10/100)
+        let iPhone_12_Pro = Model(name: "iPhone_12_Pro", category: .iPhone, scaleCompensation: 10/100)
         self.all += [iPhone_13_Pro_Max, iPhone_13, iPhone_12_Pro]
         
         // iPad
-        let iPad_Mini_6 = Model(name: "iPad_Mini_6", category: .iPad, scaleCompensation: 0.32/100)
-        let iPad_Pro = Model(name: "iPad_Pro", category: .iPad, scaleCompensation: 0.32/100)
+        let iPad_Mini_6 = Model(name: "iPad_Mini_6", category: .iPad, scaleCompensation: 10/100)
+        let iPad_Pro = Model(name: "iPad_Pro", category: .iPad, scaleCompensation: 10/100)
         self.all += [iPad_Mini_6, iPad_Pro]
         
         // iMac
-        let iMac = Model(name: "iMac", category: .iMac, scaleCompensation: 0.32/100)
+        let iMac = Model(name: "iMac", category: .iMac, scaleCompensation: 10/100)
         self.all += [iMac]
         
         // mac
-        let Mac_Mini_M1 = Model(name: "Mac_Mini_M1", category: .mac, scaleCompensation: 0.32/100)
+        let Mac_Mini_M1 = Model(name: "Mac_Mini_M1", category: .mac, scaleCompensation: 10/100)
         self.all += [Mac_Mini_M1]
         
         // Apple Watch
-        let Apple_Watch = Model(name: "Apple_Watch", category: .Watch, scaleCompensation: 0.32/100)
+        let Apple_Watch = Model(name: "Apple_Watch", category: .Watch, scaleCompensation: 5/100)
         self.all += [Apple_Watch]
         
         // Accessories
-        let AirTag = Model(name: "AirTag", category: .Accessories, scaleCompensation: 0.32/100)
+        let AirTag = Model(name: "AirTag", category: .Accessories, scaleCompensation: 10/100)
         self.all += [AirTag]
     }
     
