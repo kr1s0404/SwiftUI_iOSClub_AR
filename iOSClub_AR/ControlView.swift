@@ -64,15 +64,15 @@ struct ControlButtonBar: View
 {
     @Binding var showBrowse: Bool
     
+    @EnvironmentObject var placementSettings: PlacementSettings
+    
     var body: some View
     {
         HStack
         {
             
             // 最近使用過的模型
-            ControlButton(systemName: "clock.fill", action: {
-                
-            })
+            mostRecentlyPlacedButton().hidden(placementSettings.recentlyPlaced.isEmpty)
             
             Spacer()
             
@@ -115,6 +115,39 @@ struct ControlButton: View
         .frame(width: 50, height: 50)
     }
 }
+
+struct mostRecentlyPlacedButton: View
+{
+    @EnvironmentObject var placementSettigns: PlacementSettings
+    
+    var body: some View
+    {
+        Button(action: {
+            placementSettigns.selectedModel = placementSettigns.recentlyPlaced.last
+        }) {
+            // 如果最近放置的model array不為空陣列的話，就顯示最近放置模型的縮圖
+            if let mostRecentlyPlcaedModel = placementSettigns.recentlyPlaced.last
+            {
+                Image(uiImage: mostRecentlyPlcaedModel.thumbnail)
+                    .resizable()
+                    .frame(width: 46)
+                    .aspectRatio(1/1, contentMode: .fit)
+            }
+            else // 如果最近放置的陣列為空的話，就顯示時鐘
+            {
+                // 已經被hidden取代掉了，所以不會顯示時鐘
+                Image(systemName: "clock.arrow.circlepath")
+                    .font(.system(size: 35))
+                    .foregroundColor(.white)
+                    .buttonStyle(PlainButtonStyle())
+            }
+        }
+        .frame(width: 50, height: 50)
+        .background(Color.white)
+        .cornerRadius(8)
+    }
+}
+
 
 
 struct ControlView_Previews: PreviewProvider

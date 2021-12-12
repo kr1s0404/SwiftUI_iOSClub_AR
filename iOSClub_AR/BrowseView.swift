@@ -17,6 +17,7 @@ struct BrowseView: View
         {
             ScrollView(showsIndicators: false)
             {
+                RecentGird(showBrowse: $showBrowse)
                 ModelsByCategoryGrid(showBrowse: $showBrowse)
             }
             .navigationTitle(Text("可以使用的模型"))
@@ -35,6 +36,42 @@ struct BrowseView: View
         }
     }
 }
+
+struct RecentGird: View
+{
+    @EnvironmentObject var placementSettings: PlacementSettings
+    
+    @Binding var showBrowse: Bool
+    
+    var body: some View
+    {
+        // 如果最近使用模型陣列不為空的話
+        if !placementSettings.recentlyPlaced.isEmpty
+        {
+            HorizontalGrid(showBrowse: $showBrowse, title: "最近使用", items: getRecentsUniqueOrder())
+        }
+    }
+    
+    func getRecentsUniqueOrder() -> [Model]
+    {
+        var recentsUniqueOrderArray: [Model] = []
+        
+        // 尚未被排列的set
+        var modelNameSet: Set<String> = []
+        
+        for model in placementSettings.recentlyPlaced.reversed() // 將陣列反轉，第一個陣列元素為最常使用，最後面的元素為最少使用
+        {
+            if !modelNameSet.contains(model.name) // 確保不會有重複的model name跑進去陣列
+            {
+                recentsUniqueOrderArray.append(model)
+                modelNameSet.insert(model.name)
+            }
+        }
+        
+        return recentsUniqueOrderArray
+    }
+}
+
 
 struct ModelsByCategoryGrid: View
 {

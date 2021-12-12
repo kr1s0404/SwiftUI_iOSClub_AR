@@ -31,10 +31,15 @@ class PlacementSettings: ObservableObject
             }
             
             print("選定模型為\(model.name)")
+            
+            recentlyPlaced.append(model)
         }
     }
     
     // 這個變數替ScenceEvents.Update訂閱者(Subscriber)保留Cancellable物件
     var senceObserver: Cancellable?
+    
+    // 這個變數保留了最近使用過的模型，最後一個index存放的會是最後一個使用的model
+    @Published var recentlyPlaced: [Model] = []
     
 }

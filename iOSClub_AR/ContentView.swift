@@ -52,7 +52,7 @@ struct ARViewContainer: UIViewRepresentable
         let arView = CustomARView(frame: .zero)
         
         // 訂閱(Subscribe)ScenceEvnets.Update
-        self.placementSettings.senceObserver = arView.scene.subscribe(to: SceneEvents.Update.self, { (event) in
+        placementSettings.senceObserver = arView.scene.subscribe(to: SceneEvents.Update.self, { (event) in
             updateScnec(for: arView)
         })
         
@@ -72,10 +72,10 @@ struct ARViewContainer: UIViewRepresentable
         if let confirmedModel = placementSettings.confirmedModel, let modelEntity = confirmedModel.modelEntity {
             
             // 放置模型
-            self.place(modelEntity, in: arView)
+            place(modelEntity, in: arView)
             
             // 選擇完畢之後清空
-            self.placementSettings.confirmedModel = nil
+            placementSettings.confirmedModel = nil
             
         }
     }
