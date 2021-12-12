@@ -19,6 +19,8 @@ struct ContentView : View
     // 選擇模型的環境變數
     @EnvironmentObject var placementSettings: PlacementSettings
 
+    // 顯示設定頁面的變數
+    @State var showSetting: Bool = false
     
     var body: some View
     {
@@ -28,7 +30,7 @@ struct ContentView : View
             
             if placementSettings.selectedModel == nil
             {
-                ControlView(isControlVisible: $isControlVisible, showBrowse: $showBrowse)
+                ControlView(isControlVisible: $isControlVisible, showBrowse: $showBrowse, showSetting: $showSetting)
             }
             else
             {
@@ -44,12 +46,12 @@ struct ARViewContainer: UIViewRepresentable
 {
     @EnvironmentObject var placementSettings: PlacementSettings
 
-    
+    @EnvironmentObject var sessionSettings: SessionSettings
     
     func makeUIView(context: Context) -> CustomARView
     {
         
-        let arView = CustomARView(frame: .zero)
+        let arView = CustomARView(frame: .zero, sessionSettings: sessionSettings)
         
         // 訂閱(Subscribe)ScenceEvnets.Update
         placementSettings.senceObserver = arView.scene.subscribe(to: SceneEvents.Update.self, { (event) in
@@ -111,6 +113,7 @@ struct ContentView_Previews : PreviewProvider
     {
         ContentView()
             .environmentObject(PlacementSettings())
+            .environmentObject(SessionSettings())
     }
 }
 #endif
